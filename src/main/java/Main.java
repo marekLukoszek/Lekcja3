@@ -5,5 +5,6 @@ public class Main {
             System.out.println("Dwa");
             System.out.println("Albo trzy");
         }
+        System.out.println("Test branch1");
     }
 }
