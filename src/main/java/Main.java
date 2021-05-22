@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class Main {
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
@@ -5,6 +7,10 @@ public class Main {
             System.out.println("Dwa");
             System.out.println("Albo trzy");
         }
+
+        System.out.println(LocalDateTime.now());
+
         System.out.println("Test branch1");
+
     }
 }
