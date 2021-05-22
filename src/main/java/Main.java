@@ -11,11 +11,19 @@ public class Main {
         System.out.println(LocalDateTime.now());
 
         System.out.println("Test branch1");
+
         int j = 3;
         while (j > 0) {
             System.out.println("walczymy");
             j--;
         }
+
+        int x = 9;
+        do {
+            System.out.println("kolejna pętla");
+            x--;
+        } while (x > 0);
+
 
     }
 }
