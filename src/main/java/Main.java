@@ -11,6 +11,11 @@ public class Main {
         System.out.println(LocalDateTime.now());
 
         System.out.println("Test branch1");
+        int j = 3;
+        while (j > 0) {
+            System.out.println("walczymy");
+            j--;
+        }
 
     }
 }
