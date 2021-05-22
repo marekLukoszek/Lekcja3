@@ -11,6 +11,11 @@ public class Main {
         System.out.println(LocalDateTime.now());
 
         System.out.println("Test branch1");
+        int x = 9;
+        do {
+            System.out.println("kolejna pętla");
+            x--;
+        } while (x > 0);
 
     }
 }
