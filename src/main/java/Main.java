@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hej");
-        System.out.println("Dwa");
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Hej");
+            System.out.println("Dwa");
+            System.out.println("Albo trzy");
+        }
     }
 }
