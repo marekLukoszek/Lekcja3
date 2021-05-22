@@ -2,28 +2,20 @@ import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 3; i++) {
-            System.out.println("Hej");
-            System.out.println("Dwa");
-            System.out.println("Albo trzy");
-        }
+    Main main = new Main();
+    main.doSomething(new ConsolePrinter());
 
-        System.out.println(LocalDateTime.now());
+    }
 
-        System.out.println("Test branch1");
+    public void doSomething(ConsolePrinter consolePrinter){
+        consolePrinter.print("XYZ");
+        consolePrinter.print("ABC");
+        consolePrinter.print("ZZZ");
+        consolePrinter.print("123");
+    }
 
-        int j = 3;
-        while (j > 0) {
-            System.out.println("walczymy");
-            j--;
-        }
-
-        int x = 9;
-        do {
-            System.out.println("kolejna pętla");
-            x--;
-        } while (x > 0);
-
+    public int add(int x, int y){
+        return x+y;
 
     }
 }
